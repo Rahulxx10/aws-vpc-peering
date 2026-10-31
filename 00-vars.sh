@@ -2,7 +2,7 @@
 # 00-vars.sh  - shared settings. Every other script starts with: source ./00-vars.sh
 export AWS_DEFAULT_REGION=ap-south-1      # Mumbai
 export AWS_PAGER=""
-STUDENT="YourName"                        # <-- CHANGE THIS
+STUDENT="rahul"                        # <-- CHANGE THIS
 AZ="ap-south-1a"                          # same AZ for every subnet
 IDS="$HOME/ewb-ids.env"                   # every resource ID is saved here
 touch "$IDS"; source "$IDS"
